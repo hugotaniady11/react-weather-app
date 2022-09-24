@@ -1,12 +1,16 @@
 import React from "react";
 import styled from "styled-components";
+import temp from "../assets/icons/temp.svg";
+import humidity from "../assets/icons/humidity.svg";
+import wind from "../assets/icons/wind.svg";
+import pressure from "../assets/icons/pressure.svg";
 
 export const WeatherInfoIcons = {
-    sunset: "../icons/temp.svg",
-    sunrise: "../icons/temp.svg",
-    humidity: "../icons/humidity.svg",
-    wind: "../icons/wind.svg",
-    pressure: "../icons/pressure.svg",
+    sunset: temp,
+    sunrise: temp,
+    humidity: humidity,
+    wind: wind,
+    pressure: pressure,
 };
 
 const WeatherInfoLabel = styled.span`
