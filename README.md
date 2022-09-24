@@ -1,7 +1,7 @@
 # React Weather App
 
 ## General info
-This project is simple Weather App generator based on City.
+This project is simple Weather App generator based on City. Check Out the website here: https://react-weather-app-generator.herokuapp.com/
 
 ## Setup
 To run this project, install it locally using npm:
