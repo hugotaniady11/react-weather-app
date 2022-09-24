@@ -8,41 +8,14 @@ export const WeatherInfoIcons = {
     wind: "../icons/wind.svg",
     pressure: "../icons/pressure.svg",
 };
-const Location = styled.span`
-  margin: 15px auto;
-  text-transform: capitalize;
-  font-size: 28px;
-  font-weight: bold;
-`;
-const Condition = styled.span`
-  margin: 20px auto;
-  text-transform: capitalize;
-  font-size: 14px;
-  & span {
-    font-size: 28px;
-  }
-`;
+
 const WeatherInfoLabel = styled.span`
   margin: 20px 25px 10px;
-  text-transform: capitalize;
-  text-align: start;
+  text-align: center;
   width: 95%;
   color: #fff;
   font-weight: bold;
   font-size: 1.2rem;
-`;
-const WeatherIcon = styled.img`
-  width: 100px;
-  height: 100px;
-  margin: 5px auto;
-`;
-const WeatherContainer = styled.div`
-  display: flex;
-  width: 100%;
-  margin: 30px auto;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 `;
 
 const WeatherInfoContainer = styled.div`
@@ -75,10 +48,7 @@ const InfoLabel = styled.span`
   font-size: 1rem;
   margin: 15px;
   color: #fff;
-  & span {
-    font-size: 12px;
-    text-transform: capitalize;
-  }
+  font-size: 12px;
 `;
 
 const WeatherInfoComponent = (props) => {

@@ -64,20 +64,6 @@ function App() {
             </div>
           </div>
           <WeatherComponent weather={weather} city={city} />
-          {/* <div className="bottom">
-            <div className="feels">
-              {weather.main ? <p className='bold'>{weather.main.feels_like.toFixed()}°F</p> : null}
-              <p>Feels Like</p>
-            </div>
-            <div className="humidity">
-              {weather.main ? <p className='bold'>{weather.main.humidity}%</p> : null}
-              <p>Humidity</p>
-            </div>
-            <div className="wind">
-              {weather.wind ? <p className='bold'>{weather.wind.speed.toFixed()} MPH</p> : null}
-              <p>Wind Speed</p>
-            </div>
-          </div> */}
               </div>
             ): (
               <div>
