@@ -1,5 +1,4 @@
 import WeatherComponent from "./modules/WeatherInfoComponent";
-import styled from "styled-components";
 
 import React, { useState } from 'react';
 const api = {
@@ -21,7 +20,6 @@ function App() {
       .then(result => {
         setWeather(result);
         setQuery('');
-        // console.log(result);
       });
     }
   }
